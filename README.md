@@ -58,6 +58,9 @@ bank-churn-api/
 **Page 3:**  
 ![Dashboard Page 3](images/page_3.PNG)
 
+**Page 4:**  
+![Dashboard Page 4](images/page_4.PNG)
+
 ---
 
 ## 1️⃣ Setup Instructions
