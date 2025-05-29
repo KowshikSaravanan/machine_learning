@@ -1,4 +1,5 @@
-# 🏦 Bank Customer Churn Prediction API & Dashboard
+
+![Title](images/background.png)
 
 This project provides an end-to-end solution for predicting customer churn in a bank using a machine learning model, a secure FastAPI backend, a Streamlit UI, and persistent logging of all prediction requests.
 
