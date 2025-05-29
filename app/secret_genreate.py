@@ -1,1 +1,3 @@
-# python -c "from app.jwt import create_token; print(create_token('alice'))"
+# this is to set secret key in .env file
+import secrets
+print(secrets.token_urlsafe(32))

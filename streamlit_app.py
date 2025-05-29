@@ -105,15 +105,6 @@ if page == "Predict Churn":
                     st.error(f"API Error {response.status_code}: {response.text}")
             except Exception as e:
                 st.error(f"Could not connect to the API. Details: {str(e)}")
-    st.markdown("""
-    ---
-    **How to get a JWT token:**  
-    In your terminal or Python shell, run:
-    ```python
-    from app.jwt import create_token
-    print(create_token("alice"))
-    ```
-    """)
 
 elif page == "View Logs":
     st.title("📋 View Churn Prediction Logs")

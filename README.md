@@ -40,6 +40,23 @@ bank-churn-api/
 └── .env
 ```
 
+## 📊 Project Visuals
+
+### System Flow Diagram
+
+![System Flow Diagram](images/flow_diagram.png)
+
+### Streamlit Dashboard Pages
+
+**Page 1:**  
+![Dashboard Page 1](images/page_1.PNG)
+
+**Page 2:**  
+![Dashboard Page 2](images/page_2.PNG)
+
+**Page 3:**  
+![Dashboard Page 3](images/page_3.PNG)
+
 ---
 
 ## 1️⃣ Setup Instructions
@@ -111,6 +128,9 @@ python app/model.py
     2. Enter container shell:
 
         ```bash
+        docker-compose down
+        docker-compose build
+        docker-compose up -d
         docker exec -it <fastapi_container_id> bash
         ```
 
