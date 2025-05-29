@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Bank Churn Prediction API" id="KptiMx-JJmxLozJ0cEXO">
+    <mxGraphModel dx="1864" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#80CBC4;strokeColor=#00897B;" parent="1" vertex="1">
+          <mxGeometry x="408" y="341.5" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-2" value="User / Client" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#333;" parent="1" vertex="1">
+          <mxGeometry x="408" y="437" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-4" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1976D2;strokeWidth=3;fillColor=#E3F2FD;" parent="1" vertex="1">
+          <mxGeometry x="558" y="171" width="639" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-5" value="Docker Container" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#1976D2;" parent="1" vertex="1">
+          <mxGeometry x="800" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-6" value="FastAPI&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#43A047;strokeWidth=2;fillColor=#C8E6C9;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="660" y="261" width="375" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-7" value="JWT Authentication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCBC;strokeColor=#FF5722;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="697" y="291" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-8" value="Input Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2EBF2;strokeColor=#00BCD4;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="862" y="320" width="140" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-9" value="Rate Limiting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="702" y="407" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-10" value="ML Model Prediction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#8E24AA;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="865" y="407" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#555;endArrow=blockThin;endFill=1;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#555;endArrow=blockThin;endFill=1;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-8" target="ZYQ9jtWlFl3OFlP5wLBz-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="762" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#555;endArrow=blockThin;endFill=1;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-9" target="ZYQ9jtWlFl3OFlP5wLBz-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-14" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFE082;strokeColor=#FF8F00;" parent="1" vertex="1">
+          <mxGeometry x="1287" y="397" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-15" value="Kaggle Bank Churn Dataset (.csv)" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+          <mxGeometry x="1265" y="471" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7E57C2;dashed=1;endArrow=open;endFill=0;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-14" target="ZYQ9jtWlFl3OFlP5wLBz-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-17" value="Model Training (one-time)" style="text;html=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#7E57C2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1057" y="397" width="90" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#5224FF;strokeColor=#3399FF;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-18" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#B3E5FC;strokeColor=#0277BD;" parent="1" vertex="1">
+          <mxGeometry x="817.5" y="531" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-19" value="Logs / Analytics DB" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+          <mxGeometry x="798" y="600" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#039BE5;endArrow=blockThin;endFill=1;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-6" target="ZYQ9jtWlFl3OFlP5wLBz-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1976D2;strokeWidth=2;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-1" target="ZYQ9jtWlFl3OFlP5wLBz-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZYQ9jtWlFl3OFlP5wLBz-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-27" value="Streamlit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="167" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYQ9jtWlFl3OFlP5wLBz-29" value="WEB APP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="187" y="427" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

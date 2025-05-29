@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  fastapi:
+    build: .
+    environment:
+      - APP=fastapi
+      - SECRET_KEY=${SECRET_KEY}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./churn_logs.db:/app/churn_logs.db
+      - ./app/bank_churn_model.pkl:/app/app/bank_churn_model.pkl
+      - ./data:/app/data
+
+  streamlit:
+    build: .
+    environment:
+      - APP=streamlit
+      - SECRET_KEY=${SECRET_KEY}
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./churn_logs.db:/app/churn_logs.db
+      - ./app/bank_churn_model.pkl:/app/app/bank_churn_model.pkl
+      - ./data:/app/data
